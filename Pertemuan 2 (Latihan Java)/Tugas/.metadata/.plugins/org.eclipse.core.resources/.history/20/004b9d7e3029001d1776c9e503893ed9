@@ -1,0 +1,39 @@
+import java.util.Scanner;
+
+public class Soal5 {
+
+	public static void main(String[] args) {
+		
+		Scanner obj = new Scanner(System.in);
+		String str1,str2;
+		str1= obj.nextLine();
+		str2= obj.nextLine();
+		
+//		System.out.println(str1.length() + str2.length());
+//		int valueStr1 = (int) str1.charAt(0);
+//		
+//		if(str1.charAt(0) < str2.charAt(0)) {
+//			System.out.println("No");
+//		}
+//		else {
+//			System.out.println("Yes");
+//				
+//		}
+//		
+//		System.out.println(str1.substring(0, 1).toUpperCase() + str1.substring(1) + " " + str2.substring(0, 1).toUpperCase() + str2.substring(1));
+	
+		//Menampilkan STR1 ditambah STR2
+		System.out.println(str1.length() + str2.length());
+		
+		String AmbilDepanStr1 = str1.substring(0, 1);
+		String AmbilBelakangStr1 = str1.substring(1);
+		AmbilDepanStr1 = AmbilDepanStr1.toUpperCase();
+		System.out.println(AmbilDepanStr1 + AmbilBelakangStr1);
+		
+		String AmbilDepanStr2 = str2.substring(0, 1);
+		String AmbilBelakangStr2 = str2.substring(1);
+		AmbilDepanStr2 = AmbilDepanStr2.toUpperCase();
+		
+	}
+
+}

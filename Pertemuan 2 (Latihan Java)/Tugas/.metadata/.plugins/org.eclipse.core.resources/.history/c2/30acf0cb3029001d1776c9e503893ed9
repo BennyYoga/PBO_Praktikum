@@ -1,0 +1,44 @@
+import java.io.*;
+import java.util.Scanner;
+
+public class Soal1 {
+
+	public static void Check(Long[] num) {
+		// TODO Auto-generated method stub
+		for(Long value:num){
+			try {
+				if(value <= Byte.MAX_VALUE && value >= Byte.MIN_VALUE) {
+					System.out.println("*Byte");
+				}
+				if(value <= Short.MAX_VALUE && value >= Short.MIN_VALUE) {
+					System.out.println("*Short");
+				}
+				if(value <= Integer.MAX_VALUE && value >= Integer.MIN_VALUE) {
+					System.out.println("*Integer");
+				}
+				if(value <= Long.MAX_VALUE && value >= Long.MIN_VALUE) {
+					System.out.println("*Long");
+				}
+			}
+			catch (Exception e) {
+			    System.out.println("Something went wrong.");
+			}
+		}	
+	}
+	
+	public static void main(String[] args) {
+		Scanner myObj = new Scanner(System.in);
+		Long[] number = new Long[myObj.nextInt()];
+		
+		myObj.nextLong();
+		for(int i = 0; i<number.length; i++) {
+			number[i] = myObj.nextLong();
+		}
+		
+		for(int i = 0; i<number.length; i++) {
+			System.out.println(number[i]);
+		}
+		myObj.close();
+//		Check(number);
+	}
+}

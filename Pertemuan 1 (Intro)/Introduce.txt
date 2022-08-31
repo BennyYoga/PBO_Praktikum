@@ -1,0 +1,17 @@
+javba white paper buzzword
+-simple
+  - clean up version c++ syntact
+  - no need file header,pointer aritmatic, structure union
+-object orienred
+  - simple, object oriented fouces on the data(object)
+-POrtable
+  - the librlaries are part of system define portable
+-distrubute
+  - dapat langsung diakses menggunakan HTTP menggunakan API
+-Multrithread
+  - Menjalankan thread secara bersamaan untuk menjalankan fungsi secara pararel (multitreading and realtime)
+-Dynemic
+  - Java more dynamic than c or c++
+
+Java Compiled
+Programmer -> <- text editor ---(Source Code) .java file--> compiler -----> interpreter -> <- Hadware and operating syste,
