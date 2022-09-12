@@ -18,7 +18,7 @@ public class Soal1 {
 			if(Word.length() < 1 ) {
 				System.out.println("Kata tidak boleh kosong");
 			}
-			
+			System.out.println(Part.length);
 			for(int i = 0; i < Part.length; i++) {
 				System.out.println(Part[i]);
 			}

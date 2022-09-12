@@ -25,17 +25,11 @@ public class Soal2 {
 				break;
 			}
 			int value = Integer.valueOf(Part[j+1]);
-			System.out.println(String.format("%-15s", Part[j]) + String.format("%03d",value));
+			System.out.println(String.format("%-15s", Part[j]) + 
+					String.format("%03d",value));
 			j+= 2;
 		}
 		System.out.println("========================");
-//		String part[] = str.split(" ");
-//		int value = Integer.valueOf(part[1]);
-		
-//		System.out.println("=============");
-//		System.out.println(String.format("%-15s", part[0]) + String.format("%03d",value));
-//		
-
 	}
 
 }

@@ -17,7 +17,6 @@ public class Soal5 {
 			value += Part[i];
 		}
 
-		System.out.println(value);
 		Long result = Long.valueOf(value);
 		
 		if(((result-999999)%5) != 0) {

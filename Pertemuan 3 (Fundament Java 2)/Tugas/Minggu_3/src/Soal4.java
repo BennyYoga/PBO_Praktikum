@@ -14,22 +14,17 @@ public class Soal4 {
 
 		if(Product > 80) {
 			bonus = (Product*50000)*35/100;
-			System.out.println(bonus);
 		}
 		else if(Product > 40 && Product <= 80) {
 			bonus = (Product*50000)*25/100;
-			System.out.println(bonus);
 		}
 		else if(Product > 15 && Product <= 40) {
 			bonus = (Product*50000)*10/100;
-			System.out.println(bonus);
 		}
 		else if(Product <=15) {
 			Primary += (((Product-15)*50000)*15/100); 
 		}
 		System.out.print(Primary+bonus);
-		
-		
 	}
 
 }
